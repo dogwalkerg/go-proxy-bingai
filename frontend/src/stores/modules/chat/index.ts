@@ -32,11 +32,11 @@ export const useChatStore = defineStore(
         label: 'Cloudflare',
       },
       {
-        baseUrl: location.origin,
+        baseUrl: 'https://bing.520me.cf',
         label: '本站',
       },
       {
-        baseUrl: '',
+        baseUrl: 'https://bing.520me.cf',
         label: '自定义',
         isCus: true,
       },
